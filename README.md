@@ -23,9 +23,9 @@ Users would have to log in or create a new account if this is their first time u
 
 ## Feature of Website
 
--Sign up and Log in
--Save game progress
--Collecting badges (achievements)
+-Sign up and Log in <br>
+-Save game progress<br>
+-Collecting badges (achievements)<br>
 -Scores for each game level
 
 ## Technologies used
