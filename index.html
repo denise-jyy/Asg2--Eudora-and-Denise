@@ -11,7 +11,7 @@
     <link rel="script" href="script.js">
     <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     
 </head>
   <body>
@@ -64,13 +64,62 @@
               <img src="Images/keyboard.png" alt="img" id="icon">
             </div>
           </div>
-          <div class="row2-container">
+          <div class="row2-container" style="padding-bottom:100px">
             <div class="box orange">
               <h2 style="text-align: center;">Our educational games stimulate creativity, focus and visual memory</h2>
               <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="img">
             </div>
           </div>
         </div>
-        
+        <div>
+          <div style="position: relative; min-height: 15vh;">
+          <div class="custom-shape-divider-top-1674389466">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
+          </div>
+          <h1 id="signupTitle">Don't have an account? Sign up!</h1>
+        </div>
+          <div class="signupForm" style="align-items: center;">
+            <div class="formlottie" style="padding-top: 50px; padding-left: 20px;">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8ptubsmp.json"  background="rgba(0, 0, 0, 0)"  
+              speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+            <form class="formContent">
+              <div class="formHeading">
+                <h1>Save your learning progress!</h1>
+                <p>Fill out all required fields</p>
+              </div>
+              <div class="inputWrap">
+                <div class="input">
+                  <input type="text" id="username" placeholder=" "/>
+                  <div class="label">
+                    <label for="username">Username</label>
+                  </div>
+                </div>
+                <div class="input">
+                  <input type="email" id="email" placeholder=" "/>
+                  <div class="label">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="input">
+                  <input type="password" id="password" placeholder=" "/>
+                  <div class="label">
+                    <label for="password">Password</label>
+                  </div>
+                </div>
+                <div class="input">
+                  <input type="password" id="confirmPassword" placeholder=" "/>
+                  <div class="label">
+                    <label for="confirmPassword">Confirm Password</label>
+                  </div>
+                </div>
+                <button type="submit">Create Account</button>
+              </div>
+            </form>
+          </div>
   </body>
 </html>
