@@ -15,7 +15,7 @@
     
 </head>
   <body>
-        <div class ="navbar">
+        <div class ="navbar" style="padding-bottom:100px;">
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "library.html">Library</a></li>
@@ -23,3 +23,32 @@
                 <li><a href = "login.html">Log In</a></li>
             </ul>
         </div>
+        <div class="loginForm" style="align-items: center;">
+            <div class="formlottie">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8ptubsmp.json"  background="rgba(0, 0, 0, 0)"  
+              speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+            </div>
+            <form class="formContent" style="padding: 0px; padding-bottom: 25px;">
+              <div class="formHeading">
+                <h1 style="font-size: 40px">Log In!</h1>
+              </div>
+              <div class="inputWrap">
+                <div class="input">
+                  <input type="text" id="username" placeholder=" "/>
+                  <div class="label">
+                    <label for="username">Username</label>
+                  </div>
+                </div>
+                <div class="input">
+                  <input type="password" id="password" placeholder=" "/>
+                  <div class="label">
+                    <label for="password">Password</label>
+                  </div>
+                </div>
+                <button type="submit">Login</button>
+              </div>
+            </form>
+          </div>
+  </body>
+</html>
