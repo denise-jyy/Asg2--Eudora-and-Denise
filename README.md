@@ -13,7 +13,9 @@ Users would have to log in or create a new account if this is their first time u
 
 ## Game 2: Hangman (possible game idea)
 
-## Game 3: Memory game (possible game idea)
+## Game 3: Memory game 
+
+Memory game builds children's thinking skills, concentration and attention span. This game also uses javascript. When page refreshes, the game will reset. 
 
 ## Game 4: Flashcards for fun facts
 
@@ -26,9 +28,14 @@ Users would have to log in or create a new account if this is their first time u
 -Sign up and Log in <br>
 -Save game progress<br>
 -Collecting badges (achievements)<br>
--Scores for each game level
+-Scores for each game level<br>
+-Library includes youtube videos that help children learn before attempting the games, for example the child should watch touch typing videos provided before attempting the touch typer quest game.<br>
+
 
 ## Technologies used
+
+-Shape Divider app to create waves which makes website look more appealing.<br>
+-Youtube videos (API)
 
 ## Testing
 
