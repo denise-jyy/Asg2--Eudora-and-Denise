@@ -511,10 +511,6 @@ button:hover{
     }
   }
 
-#test{
-    padding-top: 200px;
-}
-
 /*login*/
 
 .loginForm{
@@ -529,5 +525,70 @@ button:hover{
     margin: auto;
     margin-top: 50px;
 }
+
+/*library*/
+.threeCols {
+    display: flex;
+  }
+  
+  .threeCol {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    /*breakpoint*/
+    .threeCols {
+      flex-direction: column;
+    }
+  }
+
+  .centerContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .learningVid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gamepic{
+    width:100%;
+    height: 100%;
+  }
+
+  .zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+  .gamebutton button{
+    position: absolute;
+    background-color: #F8F8F8;
+    color:#fea100;
+    margin: auto;
+}
+
+.librarytext{
+    font-family: Poppins;
+    color: white;
+}
+
+.libraryHeader{
+    font-family: Poppins;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
 
    
