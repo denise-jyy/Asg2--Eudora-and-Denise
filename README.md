@@ -17,7 +17,9 @@ Users would have to log in or create a new account if this is their first time u
 
 Memory game builds children's thinking skills, concentration and attention span. This game also uses javascript. When page refreshes, the game will reset. 
 
-## Game 4: Flashcards for fun facts
+## Game 4: Quizzes
+
+User is able to choose between two quizzes, animal and colour. First, the main quiz page has two buttons which bring users to either the animal or colour quiz. Then at the respective quiz pages, there will be two buttons to play quiz and to see highscore. Highscore will be stored using API. 
 
 ## Design Process
 
@@ -35,7 +37,8 @@ Memory game builds children's thinking skills, concentration and attention span.
 ## Technologies used
 
 -Shape Divider app to create waves which makes website look more appealing.<br>
--Youtube videos (API)
+-Youtube videos (API) <br>
+-LottieFiles
 
 ## Testing
 
