@@ -590,5 +590,74 @@ button:hover{
     text-align: center;
 }
 
+/*Quiz*/
 
+#quizTitle{
+  text-align: center;
+  font-family: 'Archivo Black';
+  font-size: 50px;
+}
+
+.quizContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.quizContainer > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* BUTTONS */
+.quizbutton {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  width: 15rem;
+  text-align: center;
+  border: solid #fea100;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #FFAC1C;
+  background-color: white;
+}
+
+.quizbutton:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px
+  6px -4px rgb(0 0 0 / 0.1);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.quizbutton[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
    
