@@ -7,7 +7,7 @@ body{
 
 /*Nav bar*/
 
-.navbar{
+.nav-bar{
     height: 30px;
     width: 100%;
     top: 0;
@@ -16,7 +16,7 @@ body{
     position: sticky;
 }
 
-.navbar ul{
+.nav-bar ul{
     list-style: none;
     background: #FFAC1C;
     padding: 0;
@@ -24,12 +24,12 @@ body{
     text-align: center;
 }
 
-.navbar li{
+.nav-bar li{
     display: inline-block;
 
 }
 
-.navbar a{
+.nav-bar a{
     text-decoration: none;
     color: #fff;
     width: 100px;
@@ -41,7 +41,7 @@ body{
     text-align: center;
 }
 
-.navbar a:hover{
+.nav-bar a:hover{
     background: #fea100;
 }
 

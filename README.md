@@ -19,7 +19,7 @@ Memory game builds children's thinking skills, concentration and attention span.
 
 ## Game 4: Quizzes
 
-User is able to choose between two quizzes, animal and colour. First, the main quiz page has two buttons which bring users to either the animal or colour quiz. Then at the respective quiz pages, there will be two buttons to play quiz and to see highscore. Highscore will be stored using API. 
+User is able to choose between two quizzes, animal and colour. First, the main quiz page has two buttons which will bring users to either the animal or colour quiz. Then at the respective quiz pages, there will be two buttons to play quiz and to see highscore. Highscore will be stored using API. 
 
 ## Design Process
 
