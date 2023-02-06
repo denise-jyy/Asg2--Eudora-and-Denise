@@ -3,23 +3,21 @@
 ## Website description
 
 ‘Learn with Blook’ is a safe online educational website for children ages 6 and up! Blook is a little monster that will guide the child through our website. The website aims to help children develop ICT skills in a fun and interactive way. One of the games is a touch-typing game called ‘Touch Typer Quest’. The game will consist of many levels and whenever a child gets a 3-star rating, they will receive a badge to congratulate them for their amazing achievement.
-There are several benefits to teaching children to touch type at a young age. One of the main benefits of touch typing is that it can improve their overall typing speed and accuracy, making them more efficient at completing schoolwork and other tasks requiring typing. It can give children a valuable skill that will serve them well throughout their lives, as typing is an essential skill in today's digital world. <br>
+There are several benefits to teaching children to touch type at a young age. One of the main benefits of touch typing is that it can improve their overall typing speed and accuracy, making them more efficient at completing schoolwork and other tasks requiring typing. It can give children a valuable skill that will serve them well throughout their lives, as typing is an essential skill in today's digital world. Another game featured on our website is a memory game. Memory games can help develop children's thinking and concerntration skills. <br>
 
-Users would have to log in or create a new account if this is their first time using our website. Our website would then retain and store their information be it their profile information or their level and achievements information, and every time they log back into the website, they’ll be able to continue from where they stopped. Our website consists of a few games, and definitely more are coming! The website will consist of a homepage, explaining the benefits of our website. A signup/login page so users can save their progress. A game library that has all the games the child can choose from. Profile page where users can view their learning progress and where all their achievements will be displayed. Lastly, for each game there will be a start page where there will be instructions and description of the game (levels, achievements).
+Users would have to log in or create a new account if this is their first time using our website. Our website would then retain and store their information be it their profile information or their level and achievements information, and every time they log back into the website, they’ll be able to continue from where they stopped. Our website consists of a few games, and definitely more are coming! The website will consist of a homepage, explaining the benefits of our website. A signup/login page so users can save their progress. A library that has educational videos and games the child can choose from. Profile page where users can view their learning progress and where all their achievements will be displayed. Lastly, for each game there will be a start page where there will be instructions and description of the game (levels, achievements).
 
 ## Project/Website name: Learn with Blook
 
 ## Game 1: Touch Typer Quest
 
-## Game 2: Hangman (possible game idea)
+## Game 2: Hangman 
+
+The hangman game will feature words from the educational videos. 
 
 ## Game 3: Memory game 
 
 Memory game builds children's thinking skills, concentration and attention span. This game also uses javascript. When page refreshes, the game will reset. 
-
-## Game 4: Quizzes
-
-User is able to choose between two quizzes, animal and colour. First, the main quiz page has two buttons which will bring users to either the animal or colour quiz. Then at the respective quiz pages, there will be two buttons to play quiz and to see highscore. Highscore will be stored using API. 
 
 ## Design Process
 
