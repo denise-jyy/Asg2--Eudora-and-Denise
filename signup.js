@@ -1,5 +1,5 @@
 
-/* Signup and Login database*/
+/* Signup database*/
 
 $(document).ready(function(){
     const APIKEY = "63d37ccd3bc6b255ed0c4356";
@@ -9,8 +9,12 @@ $(document).ready(function(){
         e.preventDefault();
 
         var username = $("#username").val();
+        $("#username").val("")
         var email = $("#email").val();
+        $("#email").val("")
         var password = $("#password").val();
+        $("#password").val("")
+        $("#confirmPassword").val("")
 
         var jsondata = {"username": username,"email": email,"password": password};
         var settings = {
@@ -26,14 +30,19 @@ $(document).ready(function(){
             "processData": false,
             "data": JSON.stringify(jsondata)
         }
+        localStorage.setItem("username", username);
+        localStorage.setItem("password", password);
         
         $.ajax(settings).done(function (response) {
             console.log(response);
-      
+            
           });
     })
 
-    
 })
+
+function showSubmitmessage() {
+    alert("Account created successfully!");
+}
 
 

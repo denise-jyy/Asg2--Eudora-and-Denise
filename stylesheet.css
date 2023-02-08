@@ -406,6 +406,48 @@ button:hover{
 
 }
 
+
+/*Library page*/
+#libraryanim{
+    max-width: 100px;
+    margin: 0;
+    justify-content: center;
+    padding-left: 15rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.speech-bubble {
+  padding-top: 2rem;
+	position: absolute;
+	background: #ffffff;
+	border-radius: .4em;
+  width: 30rem;
+  height: 10rem;
+  text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #ffffff;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
 /*Memory game*/
 .gameTitle{
     text-align: center;
@@ -513,22 +555,6 @@ button:hover{
     }
   }
 
-/*login*/
-
-.loginForm{
-    display: flex;
-    flex-direction: column;
-    max-width: 900px;
-    width: 100%;
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px
-    6px -4px rgb(0 0 0 / 0.1);
-    border-radius: 12px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px;
-}
-
-/*library*/
 .threeCols {
     display: flex;
   }
@@ -588,7 +614,7 @@ button:hover{
 .libraryHeader{
     font-family: Poppins;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -743,4 +769,19 @@ button:hover{
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
+}
+
+/*login*/
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px
+  6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 12px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
 }
