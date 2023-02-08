@@ -423,7 +423,7 @@ button:hover{
   flex: 50%;
 }
 
-.speech-bubble {
+.speechBubble {
   padding-top: 2rem;
 	position: absolute;
 	background: #ffffff;
@@ -433,7 +433,7 @@ button:hover{
   text-align: center;
 }
 
-.speech-bubble:after {
+.speechBubble:after {
 	content: '';
 	position: absolute;
 	left: 0;
