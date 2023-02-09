@@ -9,13 +9,25 @@ Users would have to log in or create a new account if this is their first time u
 
 ## Project/Website name: Learn with Blook
 
-## Game 1: Touch Typer Quest
+## Homepage (By:Denise)
 
-## Game 2: Hangman 
+This page includes an introduction, benefits of website and a sign up form.
+
+## Library (By: Denise)
+
+This page includes six learning videos and three games
+
+## Profile (By: Eudora)
+
+## Login (By: Denise)
+
+## Game 1: Touch Typer Quest (By: Eudora)
+
+## Game 2: Hangman (By: Denise)
 
 The hangman game will feature words from the educational videos. 
 
-## Game 3: Memory game 
+## Game 3: Memory game (By: Denise)
 
 Memory game builds children's thinking skills, concentration and attention span. This game also uses javascript. When page refreshes, the game will reset. 
 
@@ -23,13 +35,13 @@ Memory game builds children's thinking skills, concentration and attention span.
 
 [Wireframe made with Adobe XD](https://xd.adobe.com/view/8d5f786c-9ec3-41e0-a438-0207801a45df-d80c/)
 
-## Feature of Website
+## Features of Website
 
 -Sign up and Log in <br>
--Save game progress<br>
--Collecting badges (achievements)<br>
--Scores for each game level<br>
 -Library includes youtube videos that help children learn before attempting the games, for example the child should watch touch typing videos provided before attempting the touch typer quest game.<br>
+-Memory game<br>
+-Hangman<br>
+-Typing game<br>
 
 
 ## Technologies used
@@ -37,6 +49,7 @@ Memory game builds children's thinking skills, concentration and attention span.
 -Shape Divider app to create waves which makes website look more appealing.<br>
 -Youtube videos (API) <br>
 -LottieFiles
+-RestDB API <br>
 
 ## Testing
 

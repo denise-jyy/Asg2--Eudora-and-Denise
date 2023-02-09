@@ -28,13 +28,19 @@ $(document).ready(function(){
             for (var i = 0; i < response.length; i++) {
                 if(response[i].username == localStorage.getItem(username)){
                     if(response[i].password == localStorage.getItem(password)){
-
+                        alert("Login Successful.")
+                    }
+                    else{
+                        alert("Incorrect username or password.")
+                        break;
                     }
                 }
-                
                 else{
-                    console.log("Incorrect username or password.")
+                    alert("Incorrect username or password.")
+                    break;
                 }
+             
+                
             }
         });
     })
