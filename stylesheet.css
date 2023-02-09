@@ -408,11 +408,11 @@ button:hover{
 
 /*Contact us*/
 .contactusContainer{
-  width: 85%;
+  width: 90%;
   background: #fff;
-  border-radius: 6px;
   margin: auto;
   padding: 20px 60px 30px 40px;
+  border-radius: 4px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .contactusContainer .contactusContent{
