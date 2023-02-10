@@ -42,7 +42,7 @@ $(document).ready(function(){
             for (var i = 0; i < accountResponse.length; i++) {
                 console.log(accountResponse[i].username);
                 if(accountResponse[i].username == username){
-                        alert("There's a username already registered to the database.")
+                        alert("This username is already taken.")
                 }
             }
         });

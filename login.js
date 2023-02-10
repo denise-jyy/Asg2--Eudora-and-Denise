@@ -29,13 +29,13 @@ $(document).ready(function(){
             for (var i = 0; i < response.length; i++) {
                 console.log(response[i].username);
                 if(response[i].username == username && response[i].password == password){
-                        alert("Login Successful.")
+                        alert("Login is Successful.")
                         localStorage.setItem("id", response[i]._id);
                         break;
                 }
             }
             if (ableToLogin == false){
-                alert("Failed to login")
+                alert("Incorrect username or password.")
             }
 
 
