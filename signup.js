@@ -61,12 +61,12 @@ $(document).ready(function(){
             "processData": false,
             "data": JSON.stringify(jsondata)
         }
+        alert("Account created successfully!");
         
         $.ajax(settings).done(function (response) {           
-            console.log(response); 
-            if (response.length > 0){
-                alert("Account created successfully!");
-            }
+            // if (response.length > 0){
+            //     alert("Account created successfully!");
+            // }
           });
     })
 })

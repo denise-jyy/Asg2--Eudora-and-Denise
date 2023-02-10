@@ -37,6 +37,7 @@ Memory game builds children's thinking skills, concentration and attention span.
 
 ## Features of Website
 
+-Browser tab icon using favicon<br>
 -Sign up and Log in <br>
 -Contact Us form <br>
 -Library includes youtube videos that help children learn before attempting the games, for example the child should watch touch typing videos provided before attempting the touch typer quest game.<br>
@@ -54,4 +55,8 @@ Memory game builds children's thinking skills, concentration and attention span.
 -RestDB API <br>
 -Email API <br>
 -Canva to create profile cover <br>
+-Flaticon <br>
+-Favicon<br>
+
+## Testings
 
