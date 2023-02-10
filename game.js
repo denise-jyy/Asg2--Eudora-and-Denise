@@ -75,9 +75,9 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts= document.querySelectorAll(".figure-part");
 
-const words = ['shark', 'spider', 'octopus', 'cobra','narwhal','penguin','wolf','tiger','hummingbird','dinosaur','blackboard','cellphone','airplane','mountain','butterfly','black','purple','brown','yellow'];
+const word = ['shark', 'spider', 'octopus', 'cobra','narwhal','penguin','wolf','tiger','hummingbird','dinosaur','blackboard','cellphone','airplane','mountain','butterfly','black','purple','brown','yellow'];
 
-let selectedWord = words[Math.floor(Math.random() * words.length)];
+let selectedWord = word[Math.floor(Math.random() * word.length)];
 
 const correctLetters = [];
 const wrongLetters = [];
@@ -172,7 +172,7 @@ playAgainBtn.addEventListener('click', () => {
     correctLetters.splice(0);
     wrongLetters.splice(0);
 
-    selectedWord = words[Math.floor(Math.random() * words.length)];
+    selectedWord = word[Math.floor(Math.random() * word.length)];
 
     displayWord();
 
@@ -182,3 +182,4 @@ playAgainBtn.addEventListener('click', () => {
 });
 
 displayWord();
+
