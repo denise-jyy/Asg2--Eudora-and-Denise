@@ -43,16 +43,15 @@ Memory game builds children's thinking skills, concentration and attention span.
 -Memory game<br>
 -Hangman<br>
 -Typing game<br>
+-Sample profile page<br>
 
 
 ## Technologies used
 
 -Shape Divider app to create waves which makes website look more appealing.<br>
--Youtube videos (API) <br>
--LottieFiles
+-Youtube videos <br>
+-LottieFiles <br>
 -RestDB API <br>
--Email API
+-Email API <br>
+-Canva to create profile cover <br>
 
-## Testing
-
-## Credits
