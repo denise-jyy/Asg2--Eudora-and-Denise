@@ -8,7 +8,7 @@ There are several benefits to teaching children to touch type at a young age. On
 Users would have to log in or create a new account if this is their first time using our website. Our website would then retain and store their information be it their profile information or their level and achievements information, and every time they log back into the website, they’ll be able to continue from where they stopped. Our website consists of a few games, and definitely more are coming! The website will consist of a homepage, explaining the benefits of our website. A signup/login page so users can save their progress. A library that has educational videos and games the child can choose from. Profile page where users can view their learning progress and where all their achievements will be displayed. Lastly, for each game there will be a start page where there will be instructions and description of the game (levels, achievements).
 
 ## Project/Website name: Learn with Blook
-
+[Link to our github page](https://github.com/denise-jyy/idasg2denise_eudora.github.io)
 ## Homepage (By:Denise)
 
 This page includes an introduction, benefits of website, a sign up form, and a contact us form. The sign up form allows users to create a new account which will be saved in RestDB. The contact us form allows users to send a message to the host email. It uses Email API which sends the message to the host email.
