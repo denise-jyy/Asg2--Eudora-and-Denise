@@ -38,6 +38,7 @@ Memory game builds children's thinking skills, concentration and attention span.
 ## Features of Website
 
 -Sign up and Log in <br>
+-Contact Us form <br>
 -Library includes youtube videos that help children learn before attempting the games, for example the child should watch touch typing videos provided before attempting the touch typer quest game.<br>
 -Memory game<br>
 -Hangman<br>
@@ -50,6 +51,7 @@ Memory game builds children's thinking skills, concentration and attention span.
 -Youtube videos (API) <br>
 -LottieFiles
 -RestDB API <br>
+-Email API
 
 ## Testing
 

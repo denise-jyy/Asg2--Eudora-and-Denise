@@ -3,6 +3,7 @@ $(document).ready(function(){
     $("#submit-button").on("click", function(e){
         e.preventDefault();
         const APIKEY = "63d37ccd3bc6b255ed0c4356";
+        var ableToLogin = true;
             
         var username = $("#username").val();
             $("#username").val("")
@@ -26,23 +27,19 @@ $(document).ready(function(){
             var i = 0;
 
             for (var i = 0; i < response.length; i++) {
-                if(response[i].username == localStorage.getItem(username)){
-                    if(response[i].password == localStorage.getItem(password)){
+                console.log(response[i].username);
+                if(response[i].username == username && response[i].password == password){
                         alert("Login Successful.")
-                    }
-                    else{
-                        alert("Incorrect username or password.")
+                        localStorage.setItem("id", response[i]._id);
                         break;
-                    }
                 }
-                else{
-                    alert("Incorrect username or password.")
-                    break;
-                }
-             
-                
             }
+            if (ableToLogin == false){
+                alert("Failed to login")
+            }
+
+
         });
-    })
-})
+    });
+});
 
